@@ -1,6 +1,6 @@
 import React from "react";
 import { getFnc } from "./CRUD";
-class MarketPlace extends React.Component {
+class Products extends React.Component {
   state = {
     category: "",
     products: [],
@@ -22,4 +22,4 @@ class MarketPlace extends React.Component {
   }
 }
 
-export default MarketPlace;
+export default Products;

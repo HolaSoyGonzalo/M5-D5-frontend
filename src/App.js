@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Route, BrowserRouter as Router } from "react-router-dom";
 //Components
 import Navbar from "./components/Navbar";
@@ -24,7 +25,6 @@ function App() {
         <Route path="/products/:id" exact>
           <SingleProduct />
         </Route>
-
         <Footer />
       </Router>
     </div>
